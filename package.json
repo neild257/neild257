@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "https://hars1014.github.io/portfolio/",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
