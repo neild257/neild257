@@ -9,6 +9,8 @@ body {
 }
 .photo-wrapper {
   background-color: white;
+  padding: 15px 15px;
+  border: 1px solid #F0F0F0;
 }
 .section-divider {
   padding: 5px 15px 0px;
@@ -31,4 +33,30 @@ li {
   color: #000000;
   display: inline-block;
   margin-right: 10px;
+}
+.content-wrapper {
+  padding: 0 15px;
+}
+.main-wrapper {
+  border: 1px solid #F0F0F0;
+  background-color: white;
+  padding: 15px 15px;
+}
+.right-margin {
+  margin-right: 5px;
+}
+.uppercase {
+  text-transform: uppercase;
+  display: inline-block;
+}
+p {
+  text-align: justify;
+  font-size: 13px;
+  margin-top: 10px;
+}
+section {
+  margin-bottom: 20px;
+}
+.sub-section {
+  margin-bottom: 20px;
 }
