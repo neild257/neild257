@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
      <div className="container">
-       <div className="row">
+       <div className="row" style={{padding: "10px"}}>
          <div className="photo-wrapper col-xs-4">
            <img role="presentation" src={profileImage} className="img-circle center-block profile-pic" alt="profile picture"/>
            <h2 style={{textAlign:"center"}}>Harshit Pareek</h2>
