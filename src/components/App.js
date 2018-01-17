@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import profileImage from "../images/profilePicLinkedIn.jpeg";
+import heartImage from "../images/heart-img.png";
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
              </li>
              <li>
               <i className="glyphicon glyphicon-earphone right-margin"></i>
-              <span>(917)378-4946</span>
+              <span>(917)378-4926</span>
              </li>
              <li>
               <i className="glyphicon glyphicon-home right-margin"></i>
@@ -55,6 +56,7 @@ class App extends Component {
                 </span>
                 <p>Worked as a Software Engineer under two lead engineers. Participated in daily scrum meetings discussing about new features to add, improve performance and daily code maintainence. Developed "Worker Onboarding" backend service using Node, Express, MongoDB and Firebase. Queried Firebase to push and pull data and generating insights. Developed React/Redux/React-Native Components to improve the user interactivity and worker management in admin panel.   </p>
               </div>
+
               <div className="sub-section">
                 <h5>Voluntary Intern</h5>
                 <h6>Argo Labs.</h6>
@@ -62,13 +64,194 @@ class App extends Component {
                   <i className="fa fa-calendar right-margin"></i>
                   <span>May 2017 - July 2017</span>
                 </span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa culpa doloremque debitis accusamus et aperiam ab dignissimos corrupti ullam possimus! Nesciunt sed neque unde id inventore nobis eos a eum?</p>
+                <p>A Data Science and Full Stack Intern, developed task automation for SQUID (Street QUality Identification Device) using Apache Aireflow. Implemented tasks of image collection, computer vision and data processing using Python and Bash Scripting. Developed data models, NoSQL database and full stack application for NYC Bus locating app using serverless architecture of AWS Lambda.  </p>
               </div>
 
+              <div className="sub-section">
+                <h5>Teaching Assistant</h5>
+                <h6>New York University</h6>
+                <span>
+                  <i className="fa fa-calendar right-margin"></i>
+                  <span>Jan 2016 - May 2017</span>
+                </span>
+                <p>Worked as a Teaching Assistant for C++ and Data Structures. Participated in improving course material with professor and provided great suggestions to further enhance the learning in topics of Pointers, Binary Search Trees, STL and Graph Theory. Taught and assisted undergrad students during recitation and programming labs. Graded papers during assignments, mid-terms and finals. </p>
+              </div>
             </section>
+            
+            <section>
+              <i className="fa fa-lg fa-tasks right-margin"></i>
+              <h4 className="uppercase"> Projects </h4>
+              <div className="section-divider"></div>
+              
+              <div className="sub-section">
+                <h5>
+                  Know Your Neighborhood : NYU 
+                  <span className="left-margin">
+                    <a href="https://github.com/hars1014/android_cloud_project" className="fa fa-github"></a>
+                  </span>
+                </h5>
+                <h6>Android Cloud Project</h6>
+                <span>
+                  <i className="fa fa-calendar right-margin"></i>
+                  <span>Jan 2017 - May 2017</span>
+                </span>
+                <ul>
+                  <li> Developed android app for finding best neighbourhood on crime, noise etc. using big data analysis </li>
+                  <li> Implemented visualization using Maps API and D3 to depict statistically the analysis of neighbourhood </li>
+                  <li> Collected and Analysed NYC 311 Data using AWS elastic search and Hadoop to produce insights </li>
+                </ul>
+              </div>
+
+              <div className="sub-section">
+                <h5>
+                  Twitter Treand App : NYU 
+                  <span className="left-margin">
+                    <a href="https://github.com/hars1014/TwitterTrend" className="fa fa-github"></a>
+                  </span>
+                </h5>
+                <h6>Tweet Text Sentiment Analysis</h6>
+                <span>
+                  <i className="fa fa-calendar right-margin"></i>
+                  <span>Jan 2017 - May 2017</span>
+                </span>
+                <ul>
+                  <li> Implemented real time trend analysis app using AWS Elastic search for data fetching and geo querying </li>
+                  <li> Analysed collected Tweets using Watson Emotional API and Notification service using AWS SNS </li>
+                  <li> Deployed the backend on AWS EC2 instance with load balancing using Node and Express framework </li>
+                </ul>
+              </div>
+
+              <div className="sub-section">
+                <h5>
+                  Visualization of Twitter Verbal Abuse : NYU 
+                  <span className="left-margin">
+                    <a href="https://github.com/NYU-CS6313-SPRING2016/Group-11-Twitter-Verbal-Abuse" className="fa fa-github"></a>
+                  </span>
+                </h5>
+                <h6>Verbal Abuse Analysis of Tweets</h6>
+                <span>
+                  <i className="fa fa-calendar right-margin"></i>
+                  <span> Oct 2016 - Dec 2016</span>
+                </span>
+                <ul>
+                  <li> Implemented a real-time application depicting the verbal abuse on twitter based on demographics </li>
+                  <li> Applied natural language processing to the tweets to segregate emotions including anger and disgust </li>
+                  <li> Programmed user interface using d3.js technology and implemented business logic by Node.js </li>
+                </ul>
+              </div>
+              </section>
+
+              <section className="skills">
+                <i className="fa fa-lg fa-wrench right-margin"></i>
+                <h4 className="uppercase"> Skills </h4>
+                <div className="section-divider"></div>
+                  <ul className="skill-list">
+                    <li>
+                      <span className="list-item">JavaScript(ES6)</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Java</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Python</span>
+                    </li>
+                    <li>
+                      <span className="list-item">C++</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Spring MVC</span>
+                    </li>
+                    <li>
+                      <span className="list-item">HTML5</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Node</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Express</span>
+                    </li>
+                    <li>
+                      <span className="list-item">React</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Angular</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Redux</span>
+                    </li>
+                    <li>
+                      <span className="list-item">React-Native</span>
+                    </li>
+                    <li>
+                      <span className="list-item">CSS3</span>
+                    </li>
+                    <li>
+                      <span className="list-item">SASS</span>
+                    </li>
+                    <li>
+                      <span className="list-item">TypeScript</span>
+                    </li>
+                    <li>
+                      <span className="list-item">JQuery</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Machine Learning</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Artificial Intelligence</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Map Reduce</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Hadoop</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Hive</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Mocha & Chai</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Babel & Webpack</span>
+                    </li>
+                    <li>
+                      <span className="list-item">AWS/EC2/SNS/Lambda/SQS/DynamoDB</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Docker</span>
+                    </li>
+
+                  </ul>
+              </section>
+              
+              <section>
+                <i className="fa fa-lg fa-graduation-cap right-margin"></i>
+                <h4 className="uppercase"> Education </h4>
+                <div className="section-divider"></div>
+                <div className="sub-section">
+                  <h5>Master of Science: New York University</h5>
+                  <h6>Computer Science</h6>
+                  <span>
+                    <i className="fa fa-calendar right-margin"></i>
+                    <span>Sep 2015 - May 2017</span>
+                  </span>
+                </div>
+                <div className="sub-section">
+                  <h5>Bachelor of Technology: Rajasthan Technical University</h5>
+                  <h6>Computer Science and Engineering</h6>
+                  <span>
+                    <i className="fa fa-calendar right-margin"></i>
+                    <span>Sep 2010 - Jun 2014</span>
+                  </span>
+                </div>
+              </section>              
            </div>
          </div>
        </div>
+       <section className="footer">
+         <span>Made with <span className="heart"><img src={heartImage} alt="heart image" style={{height:"15px", width:"15px"}}/></span>  by &copy; Harshit Pareek (Harry) inspired by Jonathan Bloomer </span>
+       </section>
      </div>
     );
   }
