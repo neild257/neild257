@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profileImage from "../images/profilePicLinkedIn.jpeg";
+import profileImage from "../images/pp.jpeg";
 import heartImage from "../images/heart-img.png";
 
 class App extends Component {
