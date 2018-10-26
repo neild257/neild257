@@ -15,15 +15,15 @@ class App extends Component {
            <ul className="loc-wrapper">
              <li>
               <i className="glyphicon glyphicon-send right-margin"></i>
-              <a href="mailto:hars.pareek@nyu.edu">hars.pareek@nyu.edu</a>
+              <a href="mailto:harspareek@gmail.com">harspareek@gmail.com</a>
              </li>
              <li>
               <i className="glyphicon glyphicon-earphone right-margin"></i>
-              <span>(917)378-4926</span>
+              <span>+1 (917)378-4926</span>
              </li>
              <li>
               <i className="glyphicon glyphicon-home right-margin"></i>
-              <span>New York City, NY</span>
+              <span>Los Angles, California</span>
              </li>
            </ul>
            <div className="section-divider"></div>
@@ -40,12 +40,22 @@ class App extends Component {
               <i className="fa fa-lg fa-handshake-o right-margin"></i>
               <h4 className="uppercase"> About Me </h4>
               <div className="section-divider"></div>
-              <p> Hi there! I am an aspiring Software Engineer with experience and interest in Full Stack, Machine Learning, Data Science and Cloud Computing. I have a master's degree in Computer Science from New York University and a B.Tech in Computer Science from Rajasthan Technical University, India. I have worked on different languages and frameworks like C++, Python, Ruby and Django but recent love are JavaScript, Node, React, Angular, Java and Spring. I am looking for new opportunities in Software Engineering or Full Stack Engineer. </p>
+              <p> Hi there! I am an aspiring Software Engineer with experience and interest in Full Stack, Machine Learning, Data Science and Cloud Computing. I have a master's degree in Computer Science from New York University and a B.Tech in Computer Science from Rajasthan Technical University, India. I have worked on different languages and frameworks like C++, Python, Ruby and Django but my recent love is for JavaScript, Node, React, Angular, Java and Spring. I am looking for new opportunities in Software Engineering or Full Stack Engineer. </p>
             </section>
             <section>
               <i className="fa fa-lg fa-briefcase right-margin"></i>
               <h4 className="uppercase">Experience</h4>
               <div className="section-divider"></div>
+
+              <div className="sub-section">
+                <h5>Software Developer</h5>
+                <h6>CareMore HealthCare</h6>
+                <span>
+                  <i className="fa fa-calendar right-margin"></i>
+                  <span>Jan 2018 - present</span>
+                </span>
+                <p>Worked as a Software Developer in an agile team to build a mobile and web application. Developed rich and robust User Interface (UI) Components using HTML 5, CSS 3, SASS, LESS (CSS Pre-processors), Type Script (JavaScript Superset), Redux, Angular 4 (JavaScript Framework). Implemented REST (Representational State Transfer) Web Services and developed CRUD operations using Spring Web MVC (Model-View-Controller), Spring Boot and Java Enterprise Edition frameworks. Collaborated with other Software Developers and Testers while following Agile Development using JIRA (Peer Code Review, Daily Scrum Meetings, Requirement Gathering and Analysis, Issue Tracking etc.). Managed and Analysed the performance, life cycle, publishing of REST Web Services using WSO 2 API Manager Tool. Documented and Tested the REST API Web Services using Swagger (Java Documentation and Testing Framework). </p>
+              </div>
               
               <div className="sub-section">
                 <h5>Software Engineer</h5>
