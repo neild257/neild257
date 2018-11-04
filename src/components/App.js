@@ -28,8 +28,8 @@ class App extends Component {
            </ul>
            <div className="section-divider"></div>
            <div className="social-wrapper">
-            <a href="https://github.com/hars1014" className="fa fa-2x fa-github"></a>
-            <a href="https://www.linkedin.com/in/harshit-pareek-3995b586/" className="fa fa-2x fa-linkedin"></a>
+            <a href="https://github.com/harry101491" className="fa fa-2x fa-github"></a>
+            <a href="https://www.linkedin.com/in/harshit-harry-pareek-3995b586/" className="fa fa-2x fa-linkedin"></a>
             <a href="https://twitter.com/harshit031091" className="fa fa-2x fa-twitter"></a>
             <a href="https://www.facebook.com/harshit.pareek.75873" className="fa fa-2x fa-facebook"></a>
            </div>
