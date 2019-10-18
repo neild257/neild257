@@ -46,13 +46,23 @@ class App extends Component {
               <i className="fa fa-lg fa-briefcase right-margin"></i>
               <h4 className="uppercase">Experience</h4>
               <div className="section-divider"></div>
-
+              
+              <div className="sub-section">
+                <h5>Java Full Stack Developer</h5>
+                <h6>Broadridge Financial Solutions</h6>
+                <span>
+                  <i className="fa fa-calendar right-margin"></i>
+                  <span>March 2019 - present</span>
+                </span>
+                <p>Worked as a Java Full Stack Software Developer under guidence of two highly skilled senior developers with more than 15 years of industry exprerience. Worked on Stencil.Js, a compiler for Web Components and worked on the backend REST API using Spring Boot Framework. Developed highly independent and self-sufficiant web components for UBS client on their wealth management portfolio. Worked on creating highly efficient RESTful API's that applies CRUD and transactions on the wealth information. Applied Test first approach using code coverage, best test driven approach, jest testing framework, Junit, Cucumber and other automation tools. Highly involved in the Agile process of software development including story requirnment analysis, requirement and story point analysis, bug fixing and other daily scrum tasks.</p>
+              </div>
+              
               <div className="sub-section">
                 <h5>Software Developer</h5>
                 <h6>CareMore HealthCare</h6>
                 <span>
                   <i className="fa fa-calendar right-margin"></i>
-                  <span>Jan 2018 - present</span>
+                  <span>Jan 2018 - March 2019</span>
                 </span>
                 <p>Worked as a Software Developer in an agile team to build a mobile and web application. Developed rich and robust User Interface (UI) Components using HTML 5, CSS 3, SASS, LESS (CSS Pre-processors), Type Script (JavaScript Superset), Redux, Angular 4 (JavaScript Framework). Implemented REST (Representational State Transfer) Web Services and developed CRUD operations using Spring Web MVC (Model-View-Controller), Spring Boot and Java Enterprise Edition frameworks. Collaborated with other Software Developers and Testers while following Agile Development using JIRA (Peer Code Review, Daily Scrum Meetings, Requirement Gathering and Analysis, Issue Tracking etc.). Managed and Analysed the performance, life cycle, publishing of REST Web Services using WSO 2 API Manager Tool. Documented and Tested the REST API Web Services using Swagger (Java Documentation and Testing Framework). </p>
               </div>
@@ -163,9 +173,6 @@ class App extends Component {
                       <span className="list-item">Java</span>
                     </li>
                     <li>
-                      <span className="list-item">Python</span>
-                    </li>
-                    <li>
                       <span className="list-item">C++</span>
                     </li>
                     <li>
@@ -211,15 +218,6 @@ class App extends Component {
                       <span className="list-item">Artificial Intelligence</span>
                     </li>
                     <li>
-                      <span className="list-item">Map Reduce</span>
-                    </li>
-                    <li>
-                      <span className="list-item">Hadoop</span>
-                    </li>
-                    <li>
-                      <span className="list-item">Hive</span>
-                    </li>
-                    <li>
                       <span className="list-item">Mocha & Chai</span>
                     </li>
                     <li>
@@ -231,7 +229,27 @@ class App extends Component {
                     <li>
                       <span className="list-item">Docker</span>
                     </li>
-
+                    <li>
+                      <span className="list-item">Junit</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Jest</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Web Components</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Stencil.js</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Swagger API</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Cucumber</span>
+                    </li>
+                    <li>
+                      <span className="list-item">Lombok</span>
+                    </li>
                   </ul>
               </section>
               
