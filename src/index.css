@@ -6,7 +6,14 @@ body {
   text-align: justify;
   font-size: 13px;
 }
-.profile-pic {
+
+.section-divider {
+  padding: 5px 15px 0px;
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 15px;
+}
+
+/* .profile-pic {
   width: 200px;
 }
 .photo-wrapper {
@@ -14,11 +21,7 @@ body {
   padding: 15px 15px;
   border: 1px solid #F0F0F0;
 }
-.section-divider {
-  padding: 5px 15px 0px;
-  border-bottom: 1px solid #F0F0F0;
-  margin-bottom: 15px;
-}
+
 .loc-wrapper {
   text-align: center;
   list-style: none;
@@ -116,4 +119,4 @@ section {
 .footer {
   text-align: center;
   font-size: 10px;
-}
+} */

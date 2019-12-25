@@ -1,0 +1,53 @@
+.FooterAnimation {
+    display: flex;
+    width: 100%;
+}
+
+.FooterAnimation .FooterPlaceholder {
+    flex: 1;
+    margin: 0 8px;
+}
+
+.FooterAnimation .FooterHeartAnimation {
+    flex: 2;
+    padding: 0 12px;
+    margin: 0 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 10px;
+}
+
+.FooterAnimation .FooterHeartAnimation .Heart {
+  display: inline-block;
+  animation: heartbeat 1s infinite;
+  margin: 1px;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}

@@ -1,0 +1,18 @@
+
+.NameWrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   margin-top: 8px;
+}
+
+.NameWrapper .Title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.NameWrapper .Designation {
+    font-size: 18px;
+    font-weight: 400;
+}

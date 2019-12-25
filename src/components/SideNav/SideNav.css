@@ -1,0 +1,49 @@
+.SideNav {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #FFF;
+    justify-content: center;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #F0F0F0;
+    height: fit-content;
+}
+
+.SideNav .ProfileWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.SideNav .ContactDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.SideNav .ContactDetails .DetailItem {
+    display: flex;
+    justify-content: center;
+    margin: 3px 0;
+}
+
+.SideNav .ContactDetails .DetailItem > i {
+    margin-right: 5px;
+}
+
+.SideNav .SocialMedia {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.SideNav .SocialMedia > a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin-right: 10px;
+}

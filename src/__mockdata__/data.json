@@ -1,0 +1,183 @@
+{
+    "sideNav": {
+        "name": "Harshit Pareek",
+        "designation": "Software Engineer/Full Stack Engineer",
+        "email": "harspareek@gmail.com",
+        "phone": "+1(917) 378-4926",
+        "city": "Los Angles",
+        "state": "California",
+        "github": "https://github.com/harry101491",
+        "linkedin": "https://www.linkedin.com/in/harshit-harry-pareek-3995b586/",
+        "twitter": "https://twitter.com/harshit031091",
+        "facebook": "https://www.facebook.com/harshit.pareek.75873"
+    },
+    "mainContent": {
+        "introduction": "Hi there! I am an aspiring Software Engineer with experience and interest in Full Stack, Machine Learning, Data Science and Cloud Computing. I have a master's degree in Computer Science from New York University and a B.Tech in Computer Science from Rajasthan Technical University, India. I have worked on different languages and frameworks like C++, Python, Ruby and Django but my recent love is for JavaScript, Node, React, Angular, Java and Spring. I am looking for new opportunities in Software Engineering or Full Stack Engineer.",
+        "experiences": [
+            {
+                "role": "Java Full Stack Developer",
+                "organization": "Broadridge Financial Inc.",
+                "dates": {
+                    "startDate": "Mar 2019",
+                    "endDate": "Present"
+                },
+                "descriptions": [
+                    "Contributed as a full stack developer in a multi-language wealth management portal for client UBS",
+                    "Worked under two highly experience senior developers having more than 20 years of financial industry experience",
+                    "Invloved in all phases of agile software development methodology including daily standup, business requirnments analysis and QA management",
+                    "Developed highly independent web components using Stencil.Js (Web Components Compiler), further introduces those components in Angular and React projects",
+                    "Developed financial RESTful Web APIs using Spring Boot additionally used Junit, Cucumber, Lombok, Hibernate, PostgreSQL and other Java Technologies",
+                    "Applied test first approach in the web components using stencil test and jest testing framework",
+                    "Contributed in building CI/CD pipeline using Docker, Jenkins, AWS EC2 and other devops technologies"
+                ]
+            },
+            {
+                "role": "Software Developer",
+                "organization": "Caremore Health",
+                "dates": {
+                    "startDate": "Jan 2018",
+                    "endDate": "Mar 2019"
+                },
+                "descriptions": [
+                    "Developed rich and robust UI Components using HTML, SCSS, Typescript, Redux and Angular 5+",
+                    "Implemented RESTful Web API using Spring Boot, Hibernate, JPA and Spring Data",
+                    "Colloberated with other software developers, QA and Business Analyst while following agile methodologies",
+                    "Managed and Analysed performance, life cycle, publishing REST API using WSO2 API Manager Tool",
+                    "Developed CI/CD pipeline using Jenkins and Bitbucket and troubleshooted productions issues"
+                ]
+            },
+            {
+                "role": "Software Engineer",
+                "organization": "Jobletics Inc.",
+                "dates": {
+                    "startDate": "Sep 2017",
+                    "endDate": "Dec 2017"
+                },
+                "descriptions": [
+                    "Participated in daily scrum meetings discussing about new features to add, improved performance and daily code maintainence",
+                    "Developed \"Worker Onboarding\" backend service using Node, Express, MongoDB, Mongoose and Firebase",
+                    "Developed React/Redux/React-Native Components to improve the user interactivity and worker management in admin panel"
+                ]
+            },
+            {
+                "role": "Intern",
+                "organization": "Argo Labs",
+                "dates": {
+                    "startDate": "May 2017",
+                    "endDate": "July 2017"
+                },
+                "descriptions": [
+                    "Developed task automation for SQUID (Street QUality Identification Device) using Apache Aireflow",
+                    "Implemented tasks of image collection, computer vision and data processing using Python and Bash Scripting",
+                    "Developed data models, NoSQL database and full stack application for NYC Bus locating app using serverless architecture of AWS Lambda"
+                ]
+            },
+            {
+                "role": "Teaching Assistant",
+                "organization": "New York University",
+                "dates": {
+                    "startDate": "Jan 2016",
+                    "endDate": "May 2017"
+                },
+                "descriptions": [
+                    "Participated in improving course material with professor and provided great suggestions to further enhance the learning in topics of Pointers, Binary Search Trees, STL and Graph Theory",
+                    "Taught and assisted undergrad students during recitation and programming labs",
+                    "Graded papers during assignments, mid-terms and finals"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Know Your Neighborhood: NYU",
+                "subtitle": "Android Cloud Project",
+                "link": "https://github.com/harry101491/android_cloud_project",
+                "dates": {
+                    "startDate": "Jan 2017",
+                    "endDate": "May 2017"
+                },
+                "descriptions": [
+                    "Developed android app for finding best neighbourhood on crime, noise etc. using big data analysis",
+                    "Implemented visualization using Maps API and D3 to depict statistically the analysis of neighbourhood",
+                    "Collected and Analysed NYC 311 Data using AWS elastic search and Hadoop to produce insights"
+                ]
+            },
+            {
+                "title": "Twitter Treand App : NYU",
+                "subtitle": "Tweet Text Sentiment Analysis",
+                "link": "https://github.com/harry101491/TwitterTrend",
+                "dates": {
+                    "startDate": "Jan 2017",
+                    "endDate": "May 2017"
+                },
+                "descriptions": [
+                    "Implemented real time trend analysis app using AWS Elastic search for data fetching and geo querying",
+                    "Analysed collected Tweets using Watson Emotional API and Notification service using AWS SNS",
+                    "Deployed the backend on AWS EC2 instance with load balancing using Node and Express framework"
+                ]
+            },
+            {
+                "title": "Visualization of Twitter Verbal Abuse : NYU",
+                "subtitle": "Verbal Abuse Analysis of Tweets",
+                "link": "https://github.com/NYU-CS6313-SPRING2016/Group-11-Twitter-Verbal-Abuse",
+                "dates": {
+                    "startDate": "Oct 2016",
+                    "endDate": "Dec 2016"
+                },
+                "descriptions": [
+                    "Implemented a real-time application depicting the verbal abuse on twitter based on demographics",
+                    "Applied natural language processing to the tweets to segregate emotions including anger and disgust",
+                    "Programmed user interface using d3.js technology and implemented business logic by Node.js"
+                ]
+            }
+        ],
+        "skills": [
+            "Typescript",
+            "Javascript (ES7)",
+            "Java",
+            "Spring Boot",
+            "SCSS",
+            "Node.Js",
+            "Stencil.Js",
+            "Jest",
+            "Junit",
+            "Express.Js",
+            "React",
+            "Angular 2+",
+            "React-Native",
+            "Redux",
+            "JQuery",
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Mocha & Chai",
+            "Babel & Webpack",
+            "AWS EC2/SNS/Lambda/SQS/Dynamo DB",
+            "Docker",
+            "CI/CD",
+            "Cucumber",
+            "Lombok",
+            "Flyway Migration",
+            "Web Components",
+            "Swagger API"
+        ],
+        "education": [
+            {
+                "degree": "Master of Science",
+                "school": "New York University",
+                "major": "Computer Science",
+                "dates": {
+                    "startDate": "Sep 2015",
+                    "endDate": "May 2017"
+                }
+            },
+            {
+                "degree": "Bachelor of Technology",
+                "school": "Rajasthan Technical University",
+                "major": "Computer Science & Engineering",
+                "dates": {
+                    "startDate": "Sep 2010",
+                    "endDate": "Jun 2014"
+                }
+            }
+        ]
+    }
+}

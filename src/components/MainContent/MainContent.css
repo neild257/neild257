@@ -1,0 +1,89 @@
+.MainContent {
+    display: flex;
+    flex: 2;
+    background-color: #FFF;
+    margin: 8px;
+    padding: 12px;
+    border: 1px solid #F0F0F0;
+    flex-direction: column;
+}
+
+.MainContent .Introduction {
+    display: flex;
+    flex-direction: column;
+}
+
+.MainContent .IntroductionContent {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.MainContent .SectionHeader {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.MainContent .SectionHeader > i {
+    margin-right: 5px;
+}
+
+.MainContent .SectionHeader > h4 {
+    text-transform: uppercase;
+}
+
+.MainContent .Experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.MainContent .Experience .ExperienceContent .ExperienceItem{
+    margin: 8px 0;
+}
+
+.Dates > i {
+    margin-right: 5px;
+}
+
+.MainContent .List {
+    margin: 5px 0;
+}
+
+.MainContent .List > li {
+    margin: 4px 0;
+}
+
+.MainContent .Project {
+    display: flex;
+    flex-direction: column;
+}
+
+.MainContent .Project .ProjectLink > a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.MainContent .Project .ProjectContent .ProjectItem{
+    margin: 8px 0;
+}
+
+.MainContent .Skill .SkillList {
+    padding: 0;
+    list-style: none;
+    margin: 8px 0;
+}
+
+.MainContent .Skill .SkillList .SkillListWrapper {
+    display: inline-flex;
+    margin: 5px;
+}
+
+.MainContent .Skill .SkillList .SkillListWrapper .SkillListItem {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background-color:#F0F0F0;
+    padding: 5px;
+    font-weight: 700;
+}

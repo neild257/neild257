@@ -1,11 +1,29 @@
 import React, { Component } from 'react';
-import profileImage from "../images/pp.jpeg";
-import heartImage from "../images/heart-img.png";
+import './App.css';
+
+import SideNav from './SideNav/SideNav';
+import MainContent from './MainContent/MainContent';
+import FooterAnimation from './FooterAnimation/FooterAnimation';
+
+import data from '../__mockdata__/data.json';
 
 class App extends Component {
   render() {
     return (
-     <div className="container">
+      <div className='App'>
+        <div className="ContentWrapper">
+          <SideNav {...data.sideNav}/>
+          <MainContent {...data.mainContent}/>
+        </div> 
+        <FooterAnimation />
+      </div>
+    );
+  }
+}
+
+export default App;
+
+{/* <div className="container">
        <div className="row" style={{padding: "10px"}}>
          <div className="photo-wrapper col-xs-4">
            <img role="presentation" src={profileImage} className="img-circle center-block profile-pic" alt="profile picture"/>
@@ -280,9 +298,4 @@ class App extends Component {
        <section className="footer">
          <span>Made with <span className="heart"><img src={heartImage} alt="heart image" style={{height:"15px", width:"15px"}}/></span>  by &copy; Harshit Pareek (Harry) inspired by Jonathan Bloomer </span>
        </section>
-     </div>
-    );
-  }
-}
-
-export default App;
+     </div> */}
