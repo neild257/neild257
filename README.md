@@ -4,3 +4,6 @@ React Application that showcases my latest experience and skills. I have experie
 ## Author
 * **Harshit Pareek** - Software Engineer (NYU Grad) :sunglasses: :computer:
 <br />Looking for new opportunites - contact via mail - hars.pareek@nyu.edu
+
+## Image
+![alt Portfolio Image](/images/portfolioImage.png?raw=true "Snapshot from the portfolio page")

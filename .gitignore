@@ -13,3 +13,6 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
+# removing the data.json from online
+stc/__mockdata__
