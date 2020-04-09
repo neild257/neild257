@@ -15,4 +15,4 @@
 .env.production.local
 
 # removing the data.json from online
-/src/__mockdata__
+src/__mockdata__
