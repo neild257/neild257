@@ -87,3 +87,45 @@
     padding: 5px;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 600px) {
+    .MainContent .SectionHeader {
+        justify-content: center;
+    }
+
+    h5, h6 {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .MainContent .Experience .ExperienceContent .ExperienceItem{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Dates {
+        align-self: center;
+        margin: 5px 0;
+    }
+
+    .List {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .MainContent .Project .ProjectContent .ProjectItem{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MainContent .Skill .SkillList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ 
+    .MainContent .Education .EducationContent .EducationItem {
+        display: flex;
+        flex-direction: column;
+    }
+}

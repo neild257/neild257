@@ -6,3 +6,11 @@
 .App .ContentWrapper {
     display: flex;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .App .ContentWrapper {
+        display: flex;
+        flex-direction: column;
+    }   
+}
