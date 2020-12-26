@@ -24,7 +24,7 @@ const mainContent = (props) => {
                         return (
                             <div className="ExperienceItem" key={index}>
                                 <h5>{experience.role}</h5>
-                                <h6>{experience.organization}</h6>
+                                <h6>{experience.organization}{experience.positionType ? ` / ${experience.positionType}` : ''}</h6>
                                 <span className="Dates">
                                     <i className="fa fa-calendar"></i>
                                     <span>{experience.dates.startDate} - {experience.dates.endDate}</span>
